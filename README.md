@@ -54,6 +54,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](...)
 - GitHub [@your-username](https://github.com/Zerebel)
 - Twitter [@your-twitter](https://twitter.com/zerebel_)
