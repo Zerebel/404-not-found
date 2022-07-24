@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  height: 100%;
+}
+header > span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5625rem;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  font-family: inconsolata;
+  color: #333333;
+  padding-left: 1.5rem;
+}
+header {
+  margin-top: 1.25rem;
+}
+main {
+  font-family: space mono;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 1.25rem;
+  margin-top: 12.5625rem;
+  margin-bottom: 8rem;
+}
+
+span::before {
+  content: "\a";
+  /* white-space: pre; */
+}
+main > div#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+main > div#info > p#sum {
+  font-weight: 700;
+  font-size: 4rem;
+  font-style: normal;
+  color: #333333;
+  line-height: 5.9375rem;
+  letter-spacing: -0.035em;
+}
+main > div#info > p#desc {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: normal;
+  color: #4f4f4f;
+}
+main > div#info > p#button > button {
+  width: 13.5rem;
+  height: 4.25rem;
+  border: 0;
+  background-color: #333333;
+  color: #ffffff;
+  font-style: normal;
+  font-size: 0.875rem;
+  font-family: space mono;
+  font-weight: 700;
+  line-height: 1.3125rem;
+}
+
+img {
+  max-width: 100%;
+  width: 33.6875rem;
+  height: 25.8906rem;
+}
+
+#creator {
+  color: #bdbdbd;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+
+  text-align: center;
+}
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  main > div#info > p#sum {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.4431rem;
+  }
+  main > div#info > p#desc {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6663rem;
+  }
+  main {
+    margin-top: 2.2125rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 12.5rem) {
+  html {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 461px) {
+  #for::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  #news::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
