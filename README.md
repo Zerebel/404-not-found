@@ -36,8 +36,7 @@
 ## Overview
 
 ![screenshot](laptop.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+A 404 not found page created with HTML and CSS only
 
 Demo URL: https://zerebel.github.io/devChallenges.github.io/
 
