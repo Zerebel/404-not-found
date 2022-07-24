@@ -36,7 +36,7 @@
 ## Overview
 
 ![screenshot](laptop.png)
-A 404 not found page created with HTML and CSS only
+A responsive 404 not found page created with HTML and CSS only
 
 Demo URL: https://zerebel.github.io/devChallenges.github.io/
 
@@ -56,4 +56,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [your-website.com](...)
 - GitHub [@your-username](https://github.com/Zerebel)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Twitter [@your-twitter](https://twitter.com/zerebel_)
