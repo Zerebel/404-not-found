@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Zerebel/404-not-found">
+    <a href="https://zerebel.github.io/404-not-found/">
       Demo
     </a>
     <span> | </span>
@@ -38,7 +38,7 @@
 ![screenshot](laptop.png)
 A responsive 404 not found page created with HTML and CSS only
 
-Demo URL: https://github.com/Zerebel/404-not-found
+Demo URL: https://zerebel.github.io/404-not-found/
 
 ### Built With
 
